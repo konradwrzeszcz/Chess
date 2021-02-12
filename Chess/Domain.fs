@@ -27,4 +27,4 @@ module Domain =
         | GameWon of Player
         | GameTied
     
-    type Move = Player * ChessmanMove * GameState -> MoveResult * GameState 
+    type Move = ChessmanMove * GameState -> MoveResult * GameState 
