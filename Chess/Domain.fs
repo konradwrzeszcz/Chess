@@ -18,7 +18,7 @@ module Domain =
 
     type Board = Square list
     type LastChessmanMove = LastChessmanMove of ChessmanMove
-    type AvailableMoves = Player * ChessmanMove list
+    type AvailableMoves = ChessmanMove list
     
     type GameState = Board * LastChessmanMove * AvailableMoves
     
